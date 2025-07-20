@@ -1,5 +1,2 @@
 #!/bin/bash
-# Run Python code from the environment variable PYCODE
-
 python3 -c "$PYCODE"
-
