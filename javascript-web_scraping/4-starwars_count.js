@@ -7,6 +7,7 @@ request(process.argv[2], (error, response, body) => {
   } else {
     const results = JSON.parse(body).results;
     let count = 0;
+
     for (const film of results) {
       for (const char of film.characters) {
         if (char.includes('/18/')) {
@@ -17,4 +18,3 @@ request(process.argv[2], (error, response, body) => {
     console.log(count);
   }
 });
-

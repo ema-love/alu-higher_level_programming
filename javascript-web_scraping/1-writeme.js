@@ -6,4 +6,3 @@ fs.writeFile(process.argv[2], process.argv[3], 'utf8', (err) => {
     console.log(err);
   }
 });
-

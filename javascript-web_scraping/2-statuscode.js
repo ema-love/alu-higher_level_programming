@@ -8,4 +8,3 @@ request(process.argv[2], (error, response) => {
     console.log('code:', response.statusCode);
   }
 });
-
